@@ -7,6 +7,8 @@
 #ifndef LOGGER_H
 #define LOGGER_H
 
+#pragma once
+
 // ----- INCLUDES -----
 #include "stdio.h"
 
