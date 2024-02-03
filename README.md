@@ -3,7 +3,7 @@
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg?style=for-the-badge)
 
-> Version: **1.0.3**
+> Version: **1.0.4**
 
 ---
 
@@ -15,6 +15,7 @@
 - [Usage](#usage)
   - [Debug](#debug)
   - [Info](#info)
+  - [Success](#success)
   - [Warning](#warning)
   - [Error](#error)
   - [Fatal](#fatal)
@@ -67,6 +68,12 @@ Logger::debug("This is a debug message");
 
 ```cpp
 Logger::info("This is an info message");
+```
+
+### Success
+
+```cpp
+Logger::success("This is a success message");
 ```
 
 ### Warn
