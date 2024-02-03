@@ -1,6 +1,8 @@
 /**
  * @file logger.cpp
+ *
  * @brief Logger implementation file
+ *
  * @author Zarox28
  */
 
