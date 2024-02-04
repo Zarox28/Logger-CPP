@@ -11,6 +11,8 @@
 
 // ----- LOGGER -----
 namespace Logger {
+  extern const void init() { printf("\033[2J\033[H"); }
+
   extern const void debug(const char *msg)
   {
     printf("\033[%i;%im[DEBUG] %s\n", RESET, MAGENTA, msg);

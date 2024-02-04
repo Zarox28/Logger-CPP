@@ -27,6 +27,13 @@ enum TerminalCodes
 // ----- LOGGER -----
 namespace Logger {
   /**
+   * @brief Clear terminal
+   *
+   * @return void
+   */
+  const void init();
+
+  /**
    * @brief Log a debug message
    *
    * @param[in] msg The message to log

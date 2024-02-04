@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0] - 2024-02-04
+
+### Added
+
+- Added Init function to clear terminal
+- `README.md` assets
+
+### Changed
+
+- `README.md` file
+
 ## [1.0.4] - 2024-02-03
 
 ### Fixed
