@@ -34,7 +34,7 @@ namespace Logger {
   const void init();
 
   /**
-   * @brief Reset terminal
+   * @brief Reset terminal colors
    *
    * @return void
    */
