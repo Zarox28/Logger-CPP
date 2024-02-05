@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.1] - 2024-02-05
+
+### Changed
+
+- Changed extern functions to static functions
+
 ## [1.1.0] - 2024-02-04
 
 ### Added
