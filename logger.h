@@ -34,6 +34,13 @@ namespace Logger {
   const void init();
 
   /**
+   * @brief Reset terminal
+   *
+   * @return void
+   */
+  const void reset();
+
+  /**
    * @brief Log a debug message
    *
    * @param[in] msg The message to log

@@ -13,6 +13,8 @@
 namespace Logger {
   const void init() { printf("\033[2J\033[H"); }
 
+  const void reset() { printf("\033[%im", RESET); }
+
   const void debug(const char *msg)
   {
     printf("\033[%i;%im[DEBUG] %s\n", RESET, MAGENTA, msg);

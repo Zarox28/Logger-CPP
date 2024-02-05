@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0] - 2024-02-06
+
+### Added
+
+- Added `Logger::reset` function to reset terminal colors
+
 ## [1.1.1] - 2024-02-05
 
 ### Changed

@@ -3,7 +3,7 @@
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg?style=for-the-badge)
 
-> Version: **1.1.1**
+> Version: **1.2.0**
 
 ---
 
@@ -14,6 +14,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
   - [Init](#init)
+  - [Reset](#reset)
   - [Debug](#debug)
   - [Info](#info)
   - [Success](#success)
@@ -63,6 +64,12 @@ git submodule update --init --recursive
 
 ```cpp
 Logger::init();
+```
+
+### Reset
+
+```cpp
+Logger::reset();
 ```
 
 ### Debug
